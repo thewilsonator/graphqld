@@ -62,12 +62,12 @@ This graphql implementation is based on June 2018 spec.
 - [x] Async execution (when used with vibe.d blocking resolver are async by
   default)
 
-### Validation
+### Validation (Section 5 (subsection))
 - [ ] Arguments of correct type
-- [ ] Default values of correct type
+- [ ] Default values of correct type ([6.1](https://graphql.github.io/graphql-spec/June2018/#sec-Values-of-Correct-Type))
 - [x] Fields on correct type
 - [x] Fragments on composite types
-- [ ] Known argument names
+- [ ] Known argument names ([4.1](https://graphql.github.io/graphql-spec/June2018/#sec-Argument-Names))
 - [x] Executable Definition
 - [ ] Known directives
 - [x] Known fragment names
@@ -78,7 +78,7 @@ This graphql implementation is based on June 2018 spec.
 - [x] No unused fragments
 - [x] No unused variables
 - [x] Overlapping fields can be merged (this is done during execution)
-- [ ] Possible fragment spreads
+- [ ] Possible fragment spreads ([5.2(.3)](https://graphql.github.io/graphql-spec/June2018/#sec-Fragment-Spreads)
 - [ ] Provide non-null arguments
 - [x] Scalar leafs
 - [x] Unique argument names
@@ -87,7 +87,7 @@ This graphql implementation is based on June 2018 spec.
 - [ ] Unique input field names
 - [x] Unique operation names
 - [x] Unique variable names
-- [ ] Variables are input types
+- [ ] Variables are input types ([8.2](https://graphql.github.io/graphql-spec/June2018/#sec-Variables-Are-Input-Types))
 - [ ] Variables in allowed position
 - [x] Single root field
 
